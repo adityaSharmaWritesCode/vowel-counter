@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2019UCO1678 - Vowel Counter</title>
+<link rel="stylesheet" href="q5(d).css">
+</head>
+<body>
+<h1>Vowel Counter App</h1>
+<!--The following html code consists of the main input area of the Vowel Counter App.
+It has 2 main components - a textarea where the main text is input, and a Check button which
+initiates the JavaScript code for the vowel counting process-->
+
+<form>
+<textarea name="para" id="text" rows="5" cols="100"
+placeholder="Enter the text.."></textarea>
+<input type="button" id="checkButton" value="Check"/>
+</form>
+<br/>
+<hr/>
+<br/>
+<!--The following html code defines the initially hidden division which will
+display the count for each vowel once the JavaScript code has been executed-->
+<div id="countHeader" style="display: none; font-weight: bold; width: 13%"> VOWEL
+COUNT</div>
+<div id="aCount" style="display: none;"></div>
+<div id="eCount" style="display: none;"></div>
+<div id="iCount" style="display: none;"></div>
+<div id="oCount" style="display: none;"></div>
+<div id="uCount" style="display: none;"></div>
+<script type="text/javascript" src="q5(d).js"></script>
+</body>
+</html>
