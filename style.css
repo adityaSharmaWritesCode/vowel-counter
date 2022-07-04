@@ -1,0 +1,37 @@
+* {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: rgb(3, 3, 211);
+font-family: 'Baskerville Old Face';
+}
+h1 {
+font-weight: bold;
+font-family: 'Trebuchet MS';
+color: white;
+text-decoration: underline;
+}
+textarea {
+background-color: paleturquoise;
+color: black;
+font-size: 18px;
+padding: 5px;
+
+border-radius: 8px;
+}
+#checkButton {
+height: 24px;
+display: block;
+background-color: turquoise;
+font-size: 17px;
+font-weight: bold;
+border-radius: 5px;
+}
+div {
+height: 20px;
+width: 12%;
+border: 2px solid whitesmoke;
+background-color: burlywood;
+font-family: 'Trebuchet MS';
+font-size: 18px;
+}
